@@ -52,8 +52,7 @@ img {
 }
 .header {
   background-color: var(--white-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid (var(--dark-fone));
 }
 .header .conteiner {
   display: flex;
@@ -219,13 +218,17 @@ img {
 
 .about-list-paragraph {
   font-weight: 400;
-  font-size: 1.714;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 /* section img */
+
+.conteiner.section-img {
+  padding: 94px;
+}
 
 .title-section {
   font-weight: 700;
@@ -288,8 +291,8 @@ img {
 .card-text {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /* footer */
@@ -406,7 +409,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-tex-color);
-  margin: 4px;
+  margin-bottom: 6px;
 }
 
 .portfolio-text {
@@ -418,9 +421,10 @@ img {
 }
 
 .card-text-portfolio {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .pading-portfolio {
